@@ -16,14 +16,19 @@ body {
     padding-right: 50px;
 }
 .form-control {
-    text-align: center;
+    padding: 30px;
+
 }
 h2 {
     text-align: center;
 }
+p {
+    padding: 10px;
+}
 
 .btn {
     display: block;
+    padding: 10px;
 }
 
 #jScript, #python, #rust, #swift, #outside, #please-fill {
