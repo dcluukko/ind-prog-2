@@ -9,7 +9,9 @@ $(document).ready(function() {
 		
 		var qSums = (animal + fruit + city + tree + word);
 		alert(qSums)
-		if (qSums <=5 && age >= 15 ){
+		if (animal === 0 || fruit === 0 || city === 0 || tree === 0 || word === 0) {
+		$("#please-fill").show();
+		} else if (qSums <=5 && age >= 15 ){
 			$("#jScript").show();
 		} else if (qSums >=6 && qSums <=10  && age >= 15) {
 			$("#python").show();
@@ -19,9 +21,6 @@ $(document).ready(function() {
 			$("#swift").show();
 		} else if (age <= 14)	{
 			$("#outside").show();
-		} else if (animal === 0 || fruit === 0 || city === 0 || tree === 0 || word === 0 || age < 1)	{
-			$("#please-fill")
-			alert("nope!")
 		} else {
 			
 		}
