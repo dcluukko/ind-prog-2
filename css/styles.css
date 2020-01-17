@@ -1,5 +1,6 @@
 .container {
     text-align: center;
+    
 }
 body {
     background-color: rgb(154, 114, 201);
@@ -17,10 +18,20 @@ body {
     display: inline-block;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("https://i.ytimg.com/vi/nOMykIT0E4c/maxresdefault.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-
 }
+
+
 form {
     padding: 50px;
     align-content: center
+
 }
 .form-control {
     padding: 30px;
