@@ -9,10 +9,10 @@ body {
     background-image: url("https://inteng-storage.s3.amazonaws.com/img/iea/LBGRP34Ew2/sizes/chandra_resize_md.jpg");
     
 }
-form {
-    text-align: center;
+input {
+    width: 100%;
+    box-sizing: border-box;
 }
-
 h2 {
     text-align: center;
 }
