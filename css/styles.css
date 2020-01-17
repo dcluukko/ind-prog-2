@@ -1,3 +1,18 @@
+body {
+    background-color: rgb(154, 114, 201);
+}
+.jumbotron {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-image: url("https://inteng-storage.s3.amazonaws.com/img/iea/LBGRP34Ew2/sizes/chandra_resize_md.jpg");
+    
+}
+form {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
 }
@@ -9,3 +24,4 @@ h2 {
 #jScript, #python, #rust, #swift, #outside, #please-fill {
     display: none;
 }
+
