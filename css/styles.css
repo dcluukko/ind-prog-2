@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+}
+
+#jScript, #python, #rust, #swift, #outside, #please-fill {
+    display: none;
+}
