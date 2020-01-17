@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$("form#progLanguage").submit(function(event) {
+		event.preventDefault();
 		var age = parseInt($("input#age").val());
 		var animal = parseInt($("#animal").val());
 		var fruit = parseInt($("#fruit").val());
@@ -28,7 +29,7 @@ $(document).ready(function() {
 		
 		
 
-		event.preventDefault();
+		
 	});
 });
 
