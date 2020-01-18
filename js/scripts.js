@@ -11,7 +11,8 @@ $(document).ready(function() {
 		var qSums = (animal + fruit + city + tree + word);
 		
 		if (animal === 0 || fruit === 0 || city === 0 || tree === 0 || word === 0) {
-		$("#please-fill").show();
+		// $("#please-fill").show();
+		  alert("Please fill out ALL questions.")
 		} else if (qSums <=5 && age >= 15 ){
 			$("#jScript").show();
 			$("#python").hide();
