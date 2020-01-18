@@ -9,7 +9,7 @@ $(document).ready(function() {
 		var word = parseInt($("#word").val());
 		
 		var qSums = (animal + fruit + city + tree + word);
-		alert(qSums)
+		
 		if (animal === 0 || fruit === 0 || city === 0 || tree === 0 || word === 0) {
 		$("#please-fill").show();
 		} else if (qSums <=5 && age >= 15 ){
